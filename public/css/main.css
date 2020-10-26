@@ -1,0 +1,29 @@
+/*Seletor universal, aplica em todo código*/
+* {
+  /*Se refere às margens da página*/
+  margin: 0;
+  /* se refere ao preenchimento da página*/
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background: #ebe2e5;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1;
+  font-family: "Nunito", sans-serif;
+}
